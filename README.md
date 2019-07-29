@@ -157,7 +157,7 @@ Now that we have our database connected to our project, we need to also connect 
 
 We have finally created our Watson Studio service. Within that, created a project where our database and data are connected. We can now finally start coding and building our model!
 
-### 5. Make Machine Learning Model
+### 5. Creating and Deploying A Machine Learning Model
 
 It's time to finally create our machine leanring model! 
 
