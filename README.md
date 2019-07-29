@@ -168,7 +168,7 @@ It's time to finally create our machine leanring model!
 * You can name the notebook whatever you want :) 
 * You can either create a new notebook and copy the code from the notebook that is in github repo. Or you can import the notebook in this github repo into your project by using the `From File` option and follow along. 
 
-If you are not able to view the python notebook through github, please use this [link](https://nbviewer.jupyter.org/github/rohithravin/MachineLearningWithWatsonAndDB2/blob/master/WML%20DB2.ipynb).
+If you are not able to view the python notebook through github, please use this [link](https://nbviewer.jupyter.org/github/IBM/predict-home-value-using-watson-machine-learning-and-db2/blob/initial-update/WML%20DB2.ipynb).
 
 **IMPORTANT NOTE**: In the second code snippet of the notebook, make sure you change the configuration string to import your data into your python notebook.
 
