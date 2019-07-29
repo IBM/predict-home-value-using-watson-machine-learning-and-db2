@@ -37,12 +37,12 @@ Now that we have created our IBM Cloud account. We need to create a Db2 on Cloud
 #### 3a. Create Db2 on Cloud Service
 Head to the [dashboard](https://cloud.ibm.com) of your IBM Cloud account and the follow the steps to create your Db2 On Cloud service.
 
-![Searching For Db2 Service](img-2.png)
+![Searching For Db2 Service](docs/source/images/img-2.png)
 
 * In the search bar at the top of your dashboard, search `Db2`.
 * Although there are different database options to choose from, for the purposes of this tutorial we will be using the the `Db2` option. Click `Db2` when that option appears in the search bar.
 
-![Creating Db2 Service](img-1.png)
+![Creating Db2 Service](docs/source/images/img-1.png)
 
 
 
@@ -62,7 +62,7 @@ Head to the dashboard of your IBM Cloud account and the follow the steps to load
 * In the search bar, search `Data-Science-Track` and click on your Db2 on Cloud service
 
 
-![Loading File](img-3.png)
+![Loading File](docs/source/images/img-3.png)
 
 
 * Click on `Open Console` which will direct you to the Db2 on Cloud Console.
@@ -71,7 +71,7 @@ Head to the dashboard of your IBM Cloud account and the follow the steps to load
 * Click `Next`.
 
 
-![Creat Table](img-4.png)
+![Creat Table](docs/source/images/img-4.png)
 
 * The next step is to decide where our data will be stored. Click on the first schema that shows up, then select `New Table`.
 * Let's enter in `HOME_SALES` as our table name and select `Create` and finally `Next`.
@@ -92,7 +92,7 @@ Setting up our project enivorment can be broken down in the follow steps.
 
 Before we create a Watson Studio service, we need to first create credentials for our database so that Watson Studio can connect to it. 
 
-![Db2 On Cloud Credentials](img-5.png)
+![Db2 On Cloud Credentials](docs/source/images/img-5.png)
 
 * In the search bar, search `Data-Science-Track` and click on your Db2 on Cloud service
 * Click on `Service Credentials` on the left hand side.
@@ -109,7 +109,7 @@ The key information that is important for us is:
 
 * Now that we have this information, we can go ahead and create our Watson service. In the search bar, search `Watson Studio` and click on that option.
 
-![Creating Watson Studio Service](img-6.png)
+![Creating Watson Studio Service](docs/source/images/img-6.png)
 
  
 * Make sure all the information is correct that you have selected the `Lite` plan. 
@@ -121,7 +121,7 @@ This will redict you to the Watson Studio homepage.
 
 Let's now create and setup our project.
 
-![Creating Project](img-7.png)
+![Creating Project](docs/source/images/img-7.png)
 
 * Select `Create a Project` and then select `Standard`.
 * Before we can create this project, we will need to create a storage service. Scroll down and click `Add` under the `Define Storage` section. Follow the instructions and create the service. Make sure your choose the `Lite` plane. Then come back to projct creation page and refresh it. You should see your storage service now. 
@@ -137,7 +137,7 @@ Now that we have created out project, it's time to connect our project with our 
 * On the top of the project homepage, select `Add to project` and then click `Connection`.
 * This will then show us all the connections that we can have when using Watson Studio. For this project we want to use the `Db2` connection opton. So lets go and click that. 
 
-![Connection Database](img-8.png)
+![Connection Database](docs/source/images/img-8.png)
 
 * This will take you to a connection configuration page. Here we will enter in our Db2 credentials that we arquire from Step 4a. Make sure for the `Port` option, you use `50000`. 
 * Click `Create` once you have entered all the required information.
@@ -149,7 +149,7 @@ Now that we have our database connected to our project, we need to also connect 
 * On the top of the project homepage, select `Add to project` and then click `Connected data`.
 * Select `Select Source`.
 
-![Connecting Data](img-9.png)
+![Connecting Data](docs/source/images/img-9.png)
 
 * Select our database, scheme and finally our table `Home_Sales`. 
 * Click `Select`.
@@ -163,7 +163,7 @@ It's time to finally create our machine leanring model!
 
 * On the top of the project homepage, select `Add to project` and then click `Notebook`.
 
-![Creating Notebook](img-10.png)
+![Creating Notebook](docs/source/images/img-10.png)
 
 * You can name the notebook whatever you want :) 
 * You can either create a new notebook and copy the code from the notebook that is in github repo. Or you can import the notebook in this github repo into your project by using the `From File` option and follow along. 
