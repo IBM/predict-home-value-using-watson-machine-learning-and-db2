@@ -13,6 +13,7 @@ TBD
 3. [Load data into IBM Db2 on Cloud](#3-load-data-into-ibm-db2-on-cloud)
 4. [Setup Watson studio project](#4-setup-watson-studio-project)
 5. [Creating and deploying a machine learning model](#5-creating-and-deploying-a-machine-learning-model)
+6. [Testing using UI](#5-testing-using-ui)
 
 ### 1. Clone the repo
 
