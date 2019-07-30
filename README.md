@@ -186,6 +186,25 @@ Add Watson Machine Learning service credentials that you have saved from above, 
 
 Then, run all the cells. At the end of the run the model will be deployed using Watson Machine Learning on IBM Cloud so that you could use the same model to predict home value using an API exposed through Watson Machine Learning service.
 
+### 5. Testing using UI
+
+* Run the code from the github URL:
+
+`https://github.com/IBM/crud-using-nodejs-and-db2`
+
+* Replace the value of `IBM_WML_API: 'https://<url>',` in `src/enviornments/enviornment.ts` with the API deployment url from Watson Machine Learning.
+
+* Click `Predict` from the navigation bar on top right.
+
+* Fill out the details, Choose `Predict using Watson Machine Learning` in Predict Options and click `Submit`.
+
+* Analyze the prediction result.
+
+![Testing](docs/source/images/test-1.png)
+
+![Testing](docs/source/images/test-1a.png)
+
+
 ## Learn more
 
 * **Artificial Intelligence Code Patterns**: Enjoyed this Code Pattern? Check out our other [AI Code Patterns](https://developer.ibm.com/technologies/artificial-intelligence/)
