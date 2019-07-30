@@ -4,7 +4,14 @@ This code pattern will demonstrate a data scientist's journey in creating a mach
 
 ## Flow
 
-TBD
+![architecture](docs/source/images/architecture.png)
+
+1. Create a Watson Studio Project on IBM Cloud.
+1. IBM DB2 on Cloud database stores information that will be used for machine learning and predictions.
+1. Watson Machine Learning helps to create ML models so that new predictions can be run against the model.
+1. Jupyter notebook uses IBM Db2 on Cloud and Watson Machine Learning to create the machine learning model.
+1. The model is exposed through and API
+1. Angular UI uses the API to send new data for predictions
 
 ## Steps
 
@@ -193,7 +200,7 @@ Then, run all the cells. At the end of the run the model will be deployed using 
 
 `https://github.com/IBM/crud-using-nodejs-and-db2`
 
-* Replace the value of `IBM_WML_API: 'https://<url>',` in `src/enviornments/enviornment.ts` with the API deployment url from Watson Machine Learning.
+* Replace the value of `GO_DB2_API: 'https://<url>',` in `src/enviornments/enviornment.ts` with the API URL of your go server whcih would be `http://localhost:8080/predict`
 
 * Click `Predict` from the navigation bar on top right.
 
