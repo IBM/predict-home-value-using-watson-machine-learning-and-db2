@@ -11,8 +11,8 @@ TBD
 1. [Clone the repo](#1-clone-the-repo)
 2. [Create an IBM Cloud account](#2-create-an-ibm-cloud-account)
 3. [Load data into IBM Db2 on Cloud](#3-load-data-into-ibm-db2-on-cloud)
-4. [Setup Watson studio project](#4-setup-watson-studio)
-5. [Create machine learning model](#5-make-machine-learning-model)
+4. [Setup Watson studio project](#4-setup-watson-studio-project)
+5. [Create machine learning model](#5-create-machine-learning-model)
 
 ### 1. Clone the repo
 
@@ -79,7 +79,7 @@ Go to the dashboard of your IBM Cloud account and the follow the steps to load y
 
 Once the job has been completed, our data has finally been loaded into our database.
 
-### 4. Setup Watson Studio
+### 4. Setup Watson Studio project
 
 Setting up our project enivorment can be broken down in the follow steps.
 
