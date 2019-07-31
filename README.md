@@ -24,7 +24,7 @@ This code pattern will demonstrate a data scientist's journey in creating a mach
 
 ### 1. Clone the repo
 
-Before we start anything, we need to clone the repo. The repo has our dataset and  python notebook which we will use when creating our model.
+Before we start anything, we need to clone the repo. The repo has our dataset and python notebook which we will use when creating our model.
 
 ```bash
 git clone https://github.com/IBM/predict-home-value-using-watson-machine-learning-and-db2.git
@@ -47,12 +47,12 @@ Now that we have created our IBM Cloud account. We need to create a Db2 on Cloud
 
 #### 3a. Create Db2 on Cloud Service
 
-Go to the [dashboard](https://cloud.ibm.com) of your IBM Cloud account and the follow the steps to create your Db2 On Cloud service.
+Go to the [dashboard](https://cloud.ibm.com) of your IBM Cloud account and follow the steps to create your Db2 On Cloud service.
 
 ![Searching For Db2 Service](docs/source/images/img-2.png)
 
 * In the search bar at the top of your dashboard, search `Db2`.
-* Although there are different database options to choose from, for the purposes of this tutorial we will be using the the `Db2` option. Click `Db2` when that option appears in the search bar.
+* Although there are different database options to choose from, for the purposes of this tutorial we will be using the `Db2` option. Click `Db2` when that option appears in the search bar.
 
 ![Creating Db2 Service](docs/source/images/img-1.png)
 
@@ -67,7 +67,7 @@ Once you have created your database instance, we can go back to the dashboard an
 
 #### 3b. Load Data into Db2 on Cloud
 
-Go to the dashboard of your IBM Cloud account and the follow the steps to load your data onto Db2 On Cloud service.
+Go to the dashboard of your IBM Cloud account and follow the steps to load your data onto Db2 On Cloud service.
 
 * In the search bar, search `Data-Science-Track` and click on your Db2 on Cloud service
 
