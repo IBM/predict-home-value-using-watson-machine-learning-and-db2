@@ -1,6 +1,8 @@
-# Predict home value using IBM Watson Studio and Db2 On Cloud
+# Use IBM Watson Studio and Db2 On Cloud to create a machine learning model to predict home value
 
-This code pattern will demonstrate a data scientist's journey in creating a machine learning model using IBM Watson Studio and IBM Db2 On Cloud. We will showcase how to these products work together seamlessly to create a more enjoyable expierence. 
+Data keeps on growing and extracting meaningful information out of that data is very important. Using machine learning models from the existing data helps a company to not only extract meaningful insights but also predict future results.
+
+This code pattern will demonstrate a data scientist's journey in creating a machine learning model using IBM Watson Studio and IBM Db2 On Cloud. The pattern uses Jupyter notebook to connect to the Db2 database and uses a machine learning algorithm to create a model which is then deployed to IBM Watson machine learning service. This deployed model can now be used by exposing an API and use the input data to the API to predict the home value.
 
 ## Flow
 
