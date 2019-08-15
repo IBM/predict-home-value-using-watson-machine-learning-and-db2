@@ -12,7 +12,7 @@ This code pattern will demonstrate a data scientist's journey in creating a mach
 1. IBM DB2 on Cloud database stores information that will be used for machine learning and predictions.
 1. Watson Machine Learning helps to create ML models so that new predictions can be run against the model.
 1. Jupyter notebook uses IBM Db2 on Cloud and Watson Machine Learning to create the machine learning model.
-1. The model is exposed through and API
+1. The model is exposed through an API
 1. Angular UI uses the API to send new data for predictions
 
 ## Steps
